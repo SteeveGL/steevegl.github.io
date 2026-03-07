@@ -37,6 +37,17 @@ I'm a passionate developer with a broad interest in systems infrastructure, hard
 - ⚙️ Automation & scripting
 - 🏆 Competitive programming (CodinGame)
 
+## 🏢 My Organisations
+
+| Organisation | Description |
+|---|---|
+| [steevegl-axes](https://github.com/steevegl-axes) | Axes organization |
+| [steevegl-ml](https://github.com/steevegl-ml) | Machine Learning organization |
+
+## 📬 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SteeveGL-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/steevegl/)
+
 ---
 
 *Feel free to explore my repositories and reach out if you'd like to collaborate!*
