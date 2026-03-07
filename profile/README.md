@@ -5,16 +5,16 @@ I'm a passionate developer with a broad interest in systems infrastructure, hard
 ## 🛠️ Technologies & Skills
 
 **Languages**
-- Python · PHP · C/C++ · AutoIt · HTML
+- Python · PHP · C# · C/C++ · AutoIt · HTML · Bash · PowerShell
 
 **Infrastructure & DevOps**
 - XenServer · Docker · Rancher · Apache
 
 **Hardware & Embedded Systems**
-- Arduino · Logitech SDKs (LED & Arx Control) · Balena IoT · OctoPrint (3D printing)
+- Arduino · Balena IoT · OctoPrint (3D printing)
 
 **Web Development**
-- Flask · REST APIs (Python-Flask-RestPlus)
+- Flask · REST APIs (Python-Flask-RestPlus | Dotnet Core)
 
 ## 📦 Notable Projects
 
@@ -41,8 +41,11 @@ I'm a passionate developer with a broad interest in systems infrastructure, hard
 
 | Organisation | Description |
 |---|---|
-| [steevegl-axes](https://github.com/steevegl-axes) | Axes organization |
-| [steevegl-ml](https://github.com/steevegl-ml) | Machine Learning organization |
+| [Champions-Infonuagiques](https://github.com/Champions-Infonuagiques) | Champions Infonuagiques |
+| [Pixupia](https://github.com/Pixupia) | Pixupia |
+| [UtopikGoodies](https://github.com/UtopikGoodies) | UtopikGoodies |
+| [UtopikIO](https://github.com/UtopikIO) | UtopikIO |
+| [UtopikSandcastle](https://github.com/UtopikSandcastle) | UtopikSandcastle |
 
 ## 📬 Connect with Me
 
