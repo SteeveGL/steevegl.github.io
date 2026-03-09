@@ -1,0 +1,22 @@
+# Site configuration
+title: Steeve Gaudreault-Lambert
+description: Cloud & Infrastructure Architect | DevOps Leader | Full-Stack Engineer
+url: https://steevegl.github.io
+author: Steeve Gaudreault-Lambert
+
+# Theme
+theme: jekyll-theme-slate
+
+# SEO
+plugins:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Custom variables
+email: steeveglambert@gmail.com
+github_username: SteeveGL
+linkedin_username: steevegl
+gitlab_username: steeveglambert
