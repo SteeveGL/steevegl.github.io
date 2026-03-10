@@ -3,10 +3,3 @@
 Visit my portfolio: https://steevegl.github.io
 
 This repository contains the source for my GitHub Pages portfolio.
-
-## Development
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
