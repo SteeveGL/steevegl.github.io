@@ -2,97 +2,104 @@
 layout: default
 ---
 
-IT solutions architect with 20+ years of experience designing and implementing cloud-native architectures, driving digital transformation, and leading technical teams. Specialized in cloud infrastructure (AWS, Azure), DevOps practices, and IoT integration—helping organizations modernize their technology stack and adopt industry best practices.
+# Steeve Gaudreault-Lambert
+Québec, G3J 1S7 · steeveglambert@gmail.com · [linkedin.com/in/steevegl](https://www.linkedin.com/in/steevegl) · [github.com/SteeveGL](https://github.com/SteeveGL) · [gitlab.com/steeveglambert](https://gitlab.com/steeveglambert)
+
+IT solutions architect and technical leader with more than 20 years of experience in IT. Technology enthusiast, self-taught, and passionate about supporting digital transformation, cloud modernization, DevOps adoption, and IoT innovation.
 
 ---
 
-## 💼 Professional Expertise
+## 👤 Profile
 
-### Cloud Architecture & Strategy
-- Design modern cloud architectures (IaaS, PaaS, CaaS, FaaS) tailored to organizational needs
-- Cloud migration planning and implementation (AWS, Azure, Kubernetes)
-- Infrastructure as Code (IaC) and GitOps best practices
-
-### DevOps & CI/CD
-- Full DevOps workflows: development, QA, production environments
-- Container orchestration (Docker, Kubernetes) and microservices architecture
-- Automated deployment pipelines and continuous integration
-
-### Technical Leadership
-- Led biweekly cloud technology workshops with 80+ IT professionals
-- Mentored teams on modern development practices and emerging technologies
-- Organized and facilitated technical training across organizations
-- Guided consultants and teams on cloud architecture documentation
-
-### IoT & Hardware Integration
-- Designed and prototyped IoT solutions (Raspberry Pi, BeagleBone, embedded systems)
-- Integrated hardware with cloud platforms for real-time monitoring and control
-- Developed IoT applications for real-world use cases (schedule displays, attendance tracking, monitoring systems)
+- Architect and technical leader with more than 20 years of experience in IT
+- Specialized in cloud architectures and DevOps, supporting teams in modernization and best practice adoption
+- Ability to explain technology clearly, inspire teams, and transform technical visions into concrete results
+- Full list of experiences available on [LinkedIn](https://www.linkedin.com/in/steevegl)
 
 ---
 
-## 🛠️ Technical Stack
+## 💡 Core Skills
 
-**Cloud Platforms**  
-AWS (Amplify, S3, DynamoDB, Lambda, CDK) · Azure (Cloud, DevOps, Power Apps, Power Automate) · Microsoft 365
+- Cloud infrastructure (IaaS, PaaS, CaaS, FaaS)
+- Infrastructure as Code (IaC)
+- Containerization and orchestration
+- DevOps and CI/CD workflows for Dev, QA, Prod
+- Microservices design and implementation
+- ERP systems and enterprise integration
+- IoT equipment and embedded systems
+- Systems administration and network administration
 
-**Container & Orchestration**  
-Docker · Kubernetes · GitLab · CI/CD pipelines · Terraform
+---
 
-**Languages & Frameworks**  
-C# (.NET Core, ASP.NET) · Python · TypeScript · Bash · PowerShell · PHP
+## 🛠️ Technologies
 
-**Infrastructure & DevOps**  
-Linux · Windows Server · VMware · Ansible · GitLab CI · Azure DevOps
+AWS · Azure · Docker · Kubernetes · .NET C# · TypeScript · Python · Bash · PowerShell · PHP · GitLab · Azure DevOps · Terraform · Raspberry Pi · Balena · Yocto
 
-**IoT & Embedded**  
-Raspberry Pi · BeagleBone Black · Arduino · Balena · Yocto · Altium Designer
+---
 
-**Enterprise Tools**  
-Jira · Confluence · Power BI · Dynamics · Azure Fabric · Office 365
+## 🌍 Languages
+
+French · English
+
+---
+
+## 💼 Selected Experience
+
+- **Cloud Developer — Personal Project** (Oct 2022 – Present)
+  - Designed and developed an e-commerce web application for photographers using AWS Amplify, Cognito, S3, DynamoDB, Lambda, and automated CI/CD.
+- **IT Solutions Architect — Fédération des cégeps** (Aug 2022 – Oct 2025)
+  - Supported digital transformation and PCCTI reporting, designed cloud architecture and ERP selection requirements, led workshops, and modernized workflows with Azure, Dynamics, Power Apps, and Power Automate.
+- **Cloud Solutions Architect — Alithya Group Inc.** (Mar 2021 – May 2022)
+  - Delivered proofs of concept for containerization, microservices, and AWS environments, and containerized a PHP web application hosted on AWS.
+- **DevOps Specialist — Paradocs Mountain Software Inc.** (Oct 2020 – Feb 2021)
+  - Maintained DevOps tools and lab infrastructure, designed IoT devices for schedule displays and attendance tracking, and migrated customer e-commerce sites to containerized deployments.
+- **Cloud Technology Architect — Les Services Conseils ABna Inc.** (Jul 2020 – Oct 2020)
+  - Advised on cloud migration and DevOps methodologies, documented implementation steps, and delivered exploratory workshops for technology choices.
 
 ---
 
 ## 📦 Featured Open-Source Projects
 
 **Infrastructure Automation**
-- **[xen-updater](https://github.com/SteeveGL/xen-updater)** - Automated updater for XenServer hypervisor environments
-- **[Apache-vHost-Manager](https://github.com/SteeveGL/Apache-vHost-Manager)** - Virtual host management tool for Apache web servers
+- **[xen-updater](https://github.com/SteeveGL/xen-updater)** — Automated updater for XenServer hypervisor environments
+- **[Apache-vHost-Manager](https://github.com/SteeveGL/Apache-vHost-Manager)** — Virtual host management tool for Apache web servers
 
 **IoT & Hardware Integration**
-- **[OctoPrint-Monitoring](https://github.com/SteeveGL/OctoPrint-Monitoring)** - Real-time monitoring integration for 3D printer management platform
-- **[balena-microscope](https://github.com/SteeveGL/balena-microscope)** - IoT microscope project for remote scientific observation using Balena platform
+- **[OctoPrint-Monitoring](https://github.com/SteeveGL/OctoPrint-Monitoring)** — Real-time monitoring integration for 3D printer management platform
+- **[balena-microscope](https://github.com/SteeveGL/balena-microscope)** — IoT microscope project for remote scientific observation using the Balena platform
 
 **API & Microservices**
-- **[Python-Flask-RestPlus](https://github.com/SteeveGL/Python-Flask-RestPlus)** - Production-ready RESTful API boilerplate demonstrating best practices
-- **[Logitech-LEDSDK](https://github.com/SteeveGL/Logitech-LEDSDK)** - C++ SDK integration for hardware LED control
+- **[Python-Flask-RestPlus](https://github.com/SteeveGL/Python-Flask-RestPlus)** — Production-ready RESTful API boilerplate demonstrating best practices
+- **[Logitech-LEDSDK](https://github.com/SteeveGL/Logitech-LEDSDK)** — C++ SDK integration for hardware LED control
 
 **Embedded Systems**
-- **[arduino](https://github.com/SteeveGL/arduino)** - Microcontroller sketches and hardware integration examples
+- **[arduino](https://github.com/SteeveGL/arduino)** — Microcontroller sketches and hardware integration examples
 
 ---
 
 ## 🎯 Key Achievements
 
-- **Led organizational cloud adoption** — Conducted workshops, mentored teams, and documented cloud architecture strategies for large education sector organizations
-- **Designed modern cloud platforms** — Architected IaaS/PaaS solutions supporting multiple departments and 80+ IT professionals
-- **Enhanced DevOps maturity** — Established CI/CD workflows, containerization strategies, and Agile SCRUM practices across organizations
-- **Prototyped IoT solutions** — Designed and deployed real-world IoT devices for schedule displays, monitoring, and automated tracking
-- **Modernized enterprise systems** — Led migrations to containerization, cloud platforms, and microservices architectures
-- **Built technical communities** — Organized biweekly technical workshops and mentored consultants on cloud technologies and architecture
+- Set up cloud-related workshops and delivered training for IT professionals
+- Led documentation of optimal cloud architecture and modern workflows for colleges
+- Contributed to IoT device and software prototype development
+- Containerized PHP web portals and migrated e-commerce platforms to containerization
+- Built proofs of concept for containerization, microservices, and AWS cloud environments
+- Designed IoT solutions for schedule displays, attendance tracking, and monitoring
+- Documented DevOps implementation steps and supported Agile SCRUM cultural adoption
 
----
 
 ## 🏢 Organizations
 
 | Organisation | Description |
 |---|---|
 | [Champions-Infonuagiques](https://github.com/Champions-Infonuagiques) | Cloud technology champions community |
-| [Pixupia](https://github.com/Pixupia) | Picture store |
+| [Clutrx](https://github.com/Clutrx) | Digital tools and creative solutions |
+| [UtopikCloudTools](https://github.com/UtopikCloudTools) | Cloud automation and tooling |
+| [UtopikCode](https://github.com/UtopikCode) | Software engineering and code libraries |
 | [UtopikGoodies](https://github.com/UtopikGoodies) | Helpers and tools |
 | [UtopikIO](https://github.com/UtopikIO) | IoT and embedded systems projects |
 | [UtopikSandcastle](https://github.com/UtopikSandcastle) | Experimental and sandbox initiatives |
-| [UtopikSolutions](https://github.com/UtopikSol) | R&D projects |
+| [UtopikSol](https://github.com/UtopikSol) | R&D projects |
 
 ---
 
