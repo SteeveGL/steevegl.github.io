@@ -99,7 +99,7 @@ French · English
 | [UtopikGoodies](https://github.com/UtopikGoodies) | Helpers and tools |
 | [UtopikIO](https://github.com/UtopikIO) | IoT and embedded systems projects |
 | [UtopikSandcastle](https://github.com/UtopikSandcastle) | Experimental and sandbox initiatives |
-| [UtopikSol](https://github.com/UtopikSol) | R&D projects |
+| [UtopikSolutions](https://github.com/UtopikSolutions) | R&D projects |
 
 ---
 
