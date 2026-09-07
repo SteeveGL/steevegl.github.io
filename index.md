@@ -98,6 +98,7 @@ French · English
 | [UtopikCode](https://github.com/UtopikCode) | Software engineering and code libraries |
 | [UtopikGoodies](https://github.com/UtopikGoodies) | Helpers and tools |
 | [UtopikIO](https://github.com/UtopikIO) | IoT and embedded systems projects |
+| [UtopikPrompt](https://github.com/UtopikPrompt) | LLM, agentics and others |
 | [UtopikSandcastle](https://github.com/UtopikSandcastle) | Experimental and sandbox initiatives |
 | [UtopikSolutions](https://github.com/UtopikSolutions) | R&D projects |
 
