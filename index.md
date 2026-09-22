@@ -3,37 +3,41 @@ layout: default
 ---
 
 # Steeve Gaudreault-Lambert
-Québec, G3J 1S7 · steeveglambert@gmail.com · [linkedin.com/in/steevegl](https://www.linkedin.com/in/steevegl) · [github.com/SteeveGL](https://github.com/SteeveGL) · [gitlab.com/steeveglambert](https://gitlab.com/steeveglambert)
-
-IT solutions architect and technical leader with more than 20 years of experience in IT. Technology enthusiast, self-taught, and passionate about supporting digital transformation, cloud modernization, DevOps adoption, and IoT innovation.
+Solutions Architect & GenAI Consultant
+Infonuagique & Edge Computing | [steeveglambert@gmail.com](mailto:steeveglambert@gmail.com)
 
 ---
 
 ## 👤 Profile
 
-- Architect and technical leader with more than 20 years of experience in IT
-- Specialized in cloud architectures and DevOps, supporting teams in modernization and best practice adoption
-- Ability to explain technology clearly, inspire teams, and transform technical visions into concrete results
-- Full list of experiences available on [LinkedIn](https://www.linkedin.com/in/steevegl)
+Professional IT leader with **20+ years of experience**, including 9+ years as a solutions architecture consultant. Expert in **cloud architectures** (AWS, Azure), **Edge Computing**, **GenAI**, and **Agent Systems**. Specializes in hybrid cloud migrations, Kubernetes orchestration, DevOps transformation, and IoT solutions. Proven track record in leading digital transformation initiatives and mentoring technical teams.
 
 ---
 
-## 💡 Core Skills
+## 🚀 Expertise
 
+### 🎯 Specializations
+- **Generative AI & LLMs**: Prompt engineering, fine-tuning, RAG systems, agent frameworks
+// ...existing code...
+- **Edge Computing**: Distributed systems, local AI inference, edge orchestration
+- **Agent Systems**: Multi-agent coordination, autonomous agents, agent orchestration
+- **Cloud Architecture**: Hybrid cloud design, multi-cloud strategies, cloud-native patterns
+- **DevOps & SRE**: Infrastructure automation, observability, reliability engineering
+
+### 🏗️ Architecture
 - Cloud infrastructure (IaaS, PaaS, CaaS, FaaS)
-- Infrastructure as Code (IaC)
-- Containerization and orchestration
-- DevOps and CI/CD workflows for Dev, QA, Prod
-- Microservices design and implementation
-- ERP systems and enterprise integration
-- IoT equipment and embedded systems
-- Systems administration and network administration
+- Infrastructure as Code (Terraform, Ansible, Pulumi)
+- Containerization & Orchestration (Docker, Kubernetes)
+- Microservices & Event-driven design
+- ERP systems & enterprise integration
+- IoT & embedded systems
 
----
-
-## 🛠️ Technologies
-
-AWS · Azure · Docker · Kubernetes · .NET C# · TypeScript · Python · Bash · PowerShell · PHP · GitLab · Azure DevOps · Terraform · Raspberry Pi · Balena · Yocto
+### 🛠️ Technologies
+**Cloud**: AWS · Azure · Google Cloud
+**DevOps**: GitLab CI · Azure DevOps · Jenkins
+**Languages**: .NET C# · TypeScript · Python · Bash · PowerShell · PHP
+**Containers**: Docker · Kubernetes · Helm
+**Infrastructure**: Terraform · Ansible · Pulumi
 
 ---
 
@@ -43,22 +47,7 @@ French · English
 
 ---
 
-## 💼 Selected Experience
-
-- **Cloud Developer — Personal Project** (Oct 2022 – Present)
-  - Designed and developed an e-commerce web application for photographers using AWS Amplify, Cognito, S3, DynamoDB, Lambda, and automated CI/CD.
-- **IT Solutions Architect — Fédération des cégeps** (Aug 2022 – Oct 2025)
-  - Supported digital transformation and PCCTI reporting, designed cloud architecture and ERP selection requirements, led workshops, and modernized workflows with Azure, Dynamics, Power Apps, and Power Automate.
-- **Cloud Solutions Architect — Alithya Group Inc.** (Mar 2021 – May 2022)
-  - Delivered proofs of concept for containerization, microservices, and AWS environments, and containerized a PHP web application hosted on AWS.
-- **DevOps Specialist — Paradocs Mountain Software Inc.** (Oct 2020 – Feb 2021)
-  - Maintained DevOps tools and lab infrastructure, designed IoT devices for schedule displays and attendance tracking, and migrated customer e-commerce sites to containerized deployments.
-- **Cloud Technology Architect — Les Services Conseils ABna Inc.** (Jul 2020 – Oct 2020)
-  - Advised on cloud migration and DevOps methodologies, documented implementation steps, and delivered exploratory workshops for technology choices.
-
----
-
-## 📦 Featured Open-Source Projects
+## 🚀 GitHub Projects
 
 **Infrastructure Automation**
 - **[xen-updater](https://github.com/SteeveGL/xen-updater)** — Automated updater for XenServer hypervisor environments
@@ -94,12 +83,14 @@ French · English
 |---|---|
 | [Champions-Infonuagiques](https://github.com/Champions-Infonuagiques) | Cloud technology champions community |
 | [Clutrx](https://github.com/Clutrx) | Digital tools and creative solutions |
+| [CatTaler](https://github.com/CatTaler) | Cloud IoT and GenAI platform for remote sensing |
 | [UtopikCloudTools](https://github.com/UtopikCloudTools) | Cloud automation and tooling |
 | [UtopikCode](https://github.com/UtopikCode) | Software engineering and code libraries |
 | [UtopikGoodies](https://github.com/UtopikGoodies) | Helpers and tools |
 | [UtopikIO](https://github.com/UtopikIO) | IoT and embedded systems projects |
 | [UtopikPrompt](https://github.com/UtopikPrompt) | LLM, agentics and others |
 | [UtopikSandcastle](https://github.com/UtopikSandcastle) | Experimental and sandbox initiatives |
+| [UtopikLab](https://github.com/UtopikLab) | Research and development labs |
 | [UtopikSolutions](https://github.com/UtopikSolutions) | R&D projects |
 
 ---
