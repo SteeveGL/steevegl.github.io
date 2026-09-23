@@ -20,20 +20,19 @@
       <!-- <span class="hero__badge">Portfolio</span> -->
       <h1 class="brand" data-text="{{ site.title }}">{{ site.title }}</h1>
       <p class="subtitle">{{ site.description }}</p>
+
+      <div class="header-social">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"
+          aria-label="GitHub">GitHub</a>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener"
+          aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:{{ site.email }}" aria-label="Email">Email</a>
+      </div>
     </div>
   </header>
 
   <!-- ================= MAIN CONTENT GRID ================= -->
   <main class="container layout-grid">
-    <div class="sidebar">
-      <div class="profile-card">
-        <div class="social-links">
-          <a href="https://github.com/SteeveGL" target="_blank" rel="noopener">🐙 GitHub</a>
-          <a href="https://linkedin.com/in/steevegl" target="_blank" rel="noopener">💼 LinkedIn</a>
-          <a href="mailto:steeveglambert@gmail.com">📧 steeveglambert@gmail.com</a>
-        </div>
-      </div>
-    </div>
     <div class="main-content">
       {{ content | markdownify }}
     </div>
