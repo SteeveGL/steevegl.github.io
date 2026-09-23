@@ -1,6 +1,6 @@
 {
   "name": "GitHub Pages Portfolio",
-  "image": "mcr.microsoft.com/devcontainers/ruby:3.4",
+  "image": "mcr.microsoft.com/devcontainers/ruby",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
   },
@@ -10,7 +10,8 @@
       "extensions": [
         "ms-vscode.wordcount",
         "yzhang.markdown-all-in-one",
-        "davidanson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "Ollama.ollama"
       ],
       "settings": {
         "editor.formatOnSave": true,

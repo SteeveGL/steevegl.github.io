@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Jekyll Server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "echo 'Jekyll starting up...'",
+      "preLaunchTask": "Start Jekyll Server",
+      "serverReadyAction": {
+        "action": "openIntegratedBrowser",
+        "pattern": "Server running...",
+        "uriFormat": "http://localhost:4000"
+      }
+    }
+  ]
+}

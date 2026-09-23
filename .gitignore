@@ -30,7 +30,7 @@ ehthumbs.db
 Thumbs.db
 
 # IDE
-.vscode/
+!.vscode/
 .idea/
 *.swp
 *.swo
