@@ -1,8 +1,5 @@
 --- 
-# Custom SCSS overrides for jekyll-theme-slate # YAML front matter routes this .scss through Jekyll's Document pipeline,
- # so the Sass converter compiles the custom body instead of byte-copying it. 
---- 
-
+---
 @import "{{ site.theme }}";
 
 // --- Global Variables (Design Tokens) ---
@@ -66,129 +63,6 @@
   --anim-gradient-y: 45deg;
 }
 
-// === HERO & GLOBAL ===
-.hero {
-  position: relative;
-  width: 100%;
-  padding: clamp(3rem, 8vw, 6rem) 0 clamp(2rem, 5vw, 3.5rem);
-  overflow: hidden;
-  isolation: isolate;
-  border-bottom: 1px solid var(--color-glass-border);
-
-  /* Animated gradient background (pure CSS keyframes) */
-  background-image:
-    linear-gradient(var(--anim-gradient-x),
-      var(--color-hero-1) 0%,
-      var(--color-hero-2) 50%,
-      var(--color-hero-3) 100%);
-  background-size: 200% 200%;
-  animation: heroGradient 16s ease-in-out infinite alternate;
-}
-
-/* Two large blurred radial blobs that float slowly for depth */
-.hero__blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(70px);
-  opacity: 0.4;
-  z-index: -1;
-  pointer-events: none;
-}
-
-.hero__blob--a {
-  width: 340px;
-  height: 340px;
-  top: -80px;
-  left: -60px;
-  background: radial-gradient(circle at 30% 30%, var(--color-glow-cyan), transparent 70%);
-  animation: heroBlobA 22s ease-in-out infinite alternate;
-}
-
-.hero__blob--b {
-  width: 300px;
-  height: 300px;
-  bottom: -60px;
-  right: -40px;
-  background: radial-gradient(circle at 40% 40%, var(--color-glow-teal), transparent 70%);
-  animation: heroBlobB 26s ease-in-out infinite alternate;
-}
-
-/* Subtle vignette overlay for cohesion */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, transparent 40%, rgba(0, 0, 0, 0.4) 100%);
-  z-index: -1;
-}
-
-.hero__inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 var(--spacing-lg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.hero__title {
-  font-family: var(--font-heading);
-  font-size: var(--step-4);
-  line-height: 1.1;
-  margin: 0 0 0.5rem;
-  color: var(--color-text-light);
-  letter-spacing: -1.5px;
-  font-weight: 800;
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
-}
-
-/* Gradient text clip for the name */
-.hero__title::after {
-  content: attr(data-text);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, var(--color-glow-cyan), var(--color-primary), var(--color-glow-teal));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  filter: drop-shadow(0 2px 12px rgba(56, 189, 248, 0.4));
-  z-index: -1;
-}
-
-.hero__subtitle {
-  font-family: var(--font-heading);
-  font-size: var(--step-2);
-  color: #c4c4cc;
-  font-weight: 300;
-  margin: 0 0 1.5rem;
-}
-
-.hero__actions {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.hero__badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.35rem 0.9rem;
-  border-radius: 20px;
-  border: 1px solid var(--color-glass-border);
-  background: var(--color-glass);
-  backdrop-filter: blur(8px);
-  color: var(--color-glow-cyan);
-  font-size: var(--step-0);
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
 /* --- Global glass surface for page content === */
 body::before {
   content: "";
@@ -218,10 +92,7 @@ body::before {
   padding-bottom: var(--spacing-lg);
 }
 
-// .layout-grid .sidebar { REMOVED: vertical sidebar no longer in HTML }
-
 .layout-grid .main-content {
-  // flex: 3;
   min-width: 0;
 }
 
@@ -237,11 +108,6 @@ body::before {
 }
 
 .header-inner {
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
-  // gap: var(--spacing-md);
-  // width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--spacing-lg);
@@ -264,48 +130,6 @@ body::before {
   font-weight: 800;
   text-shadow: 0 2px 30px rgba(0, 0, 0, 0.6);
 }
-
-/* Gradient text clip for the name */
-// .brand::after {
-//   content: attr(data-text);
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-//   background: linear-gradient(135deg, var(--color-glow-cyan), var(--color-primary), var(--color-glow-teal));
-//   -webkit-background-clip: text;
-//   background-clip: text;
-//   -webkit-text-fill-color: transparent;
-//   color: transparent;
-//   filter: drop-shadow(0 2px 12px rgba(56, 189, 248, 0.4));
-//   z-index: -1;
-// }
-
-// .brand {
-//   font-family: var(--font-heading);
-//   font-size: var(--step-2);
-//   font-weight: 800;
-//   color: var(--color-text-light);
-//   letter-spacing: -0.5px;
-//   text-decoration: none;
-//   line-height: 1.1;
-//   white-space: nowrap;
-
-//   &::after {
-//     content: "";
-//     display: inline-block;
-//     width: 0;
-//     height: 2px;
-//     margin-top: 3px;
-//     margin-left: 4px;
-//     background: linear-gradient(135deg, var(--color-glow-cyan), var(--color-glow-teal));
-//     vertical-align: middle;
-//     transition: width 0.3s ease;
-//   }
-
-//   &:hover & {
-//     width: 12px;
-//   }
-// }
 
 .subtitle {
   font-family: var(--font-heading);
@@ -426,7 +250,6 @@ main-nav a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  // gap: var(--spacing-md);
 }
 
 .footer-social {
